@@ -176,7 +176,7 @@ kramdown:
 
 # Collections
 collections:
- projects:
+  projects:
     output: true
     permalink: /:collection/:path/
   dryft:
