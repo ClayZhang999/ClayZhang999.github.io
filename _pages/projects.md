@@ -13,4 +13,4 @@ author_profile: false
 
 During my research assistant role under the supervision of Prof. Mark Lake, I have been able to conduct some biomechanical testing for running footwear in collaboration with New Balance Athletics, USA.
 
-(/images/NB running.gif){:width="600x"} (/images/NB running.png){:width="600x"}
+![talksheader](/images/NB running.gif){:width="600x"}, ![talksheader](/images/NB running.png){:width="600x"}
