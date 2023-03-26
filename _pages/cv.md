@@ -2,8 +2,8 @@
 layout: single
 title: CURRICULUM VITAE
 header:
-  overlay_image: header_image.jpg
-  overlay_filter: 0.3
+  overlay_image: banner.png
+  overlay_filter: 0.01
 excerpt: |
   <br>
 permalink: /cv/
