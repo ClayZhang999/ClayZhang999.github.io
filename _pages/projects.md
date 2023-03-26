@@ -1,5 +1,4 @@
 ---
-title: PROJECTS
 excerpt: Past services and other business
 layout: collection
 permalink: /projects/
