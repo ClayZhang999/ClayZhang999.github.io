@@ -22,7 +22,16 @@
     &:hover {
       opacity: 1;
     }
+
+  	&.sticky {
+       overflow-y: auto;
+       /* calculate height of nav list
+          viewport height - nav height - masthead x-padding
+       */
+       height: calc(100vh - #{$nav-height} - 2em);
+    }
   }
+  	
 
 
   @include breakpoint($x-large) {
@@ -53,13 +62,23 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    position: relative;
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
     width: $right-sidebar-width-narrow;
-    margin-left: span(0.5 of 12);
+    margin-right: -1 * $right-sidebar-width-narrow;
+    padding-left: 1em;
     z-index: 10;
-  }
 
+    &.sticky {
+      @include clearfix();
+      position: -webkit-sticky;
+      position: sticky;
+      top: 2em;
+      float: right;
+    }
+  }
+  
   @include breakpoint($x-large) {
     width: $right-sidebar-width;
   }
@@ -73,8 +92,7 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
+  height: 36px;
 
   @include breakpoint($large) {
     display: block;
