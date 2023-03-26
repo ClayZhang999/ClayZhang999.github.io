@@ -6,7 +6,7 @@ permalink: /projects/
 #collection: projects
 #entries_layout: grid
 #classes: wide
-author_profile: false
+author_profile: true
 ---
 
 ### Sport footwear testing:
