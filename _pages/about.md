@@ -4,7 +4,7 @@ title: "About me"
 layout: single
 header:
   overlay_image: banner.png
-  overlay_filter: 0.0001
+  overlay_filter: 0.01
 author_profile: true
 redirect_from: 
 - /about/
