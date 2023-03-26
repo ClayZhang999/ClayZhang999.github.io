@@ -18,4 +18,7 @@ I'm Zhenyuan(Clay) Zhang, a PhD student studying a variety of aspects of human m
 Back in my high school days, I used to be a “sneakerhead” and played basketball quite a lot but suffered from sports injuries at the same time. It consequently sparked me to think about what’s the mechanics of these injuries and what can I do to prevent/treat them. Therefore, I chose the Human Movement Science major for my Bachelor’s degree at Chengdu Sport University, China (where I gained fond memories of 4 years). 
 
 <br>
-After that, I went to the UK and continued my academic career studying Sport and Clinical Biomechanics for my Master of Science degree at LJMU. During my MSc, I was trained by a lot of nice and knowledgeable faculty staff at the Biomechanics Research Laboratory. At present, I’m working hard to get my PhD degree at the same lab. So, stay tuned for the news of my PhD project!
+Then I went to the UK and continued my academic career studying Sport and Clinical Biomechanics for my Master of Science degree at LJMU. I was trained by a lot of nice and knowledgeable faculty staff at the Biomechanics Research Laboratory, LJMU. After receiving my MSc degree, I stayed at the same lab to work as a teaching/research assistant for 1 year. 
+
+<br>
+At present, I’m studying for a PhD degree which aims to build a framework for translating biomechanical research from laboratories to the field. So, stay tuned for the news of my PhD project!
