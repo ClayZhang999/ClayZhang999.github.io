@@ -1,5 +1,6 @@
 ---
-excerpt: Past services and other business
+title: Things I've done
+excerpt:
 layout: collection
 permalink: /projects/
 #collection: projects
@@ -8,4 +9,4 @@ permalink: /projects/
 author_profile: false
 ---
 
-# Things I've done
+# Sport footwear testing
