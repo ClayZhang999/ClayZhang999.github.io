@@ -4,7 +4,7 @@ title: "Presentations"
 excerpt: |
   <br>
 permalink: /presentations/
-author_profile: false
+author_profile: true
 ---
 
 {% include base_path %}
@@ -19,5 +19,3 @@ author_profile: false
 
 1. **Zhang Z.** and Lake M. <br>
 [A Comparison of Matched and Unmatched Filtering Approachs for Knee Joint Stiffness Calculation During Running](https://commons.nmu.edu/isbs/vol40/iss1/195). <br> ***Oral** Presentation at the 40th conference of International Society of Biomechanics in Sport (ISBS), Liverool, UK*, 2022
-
-
