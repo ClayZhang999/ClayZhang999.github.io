@@ -5,12 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+**Zhang Z.** and Lake M. <br>
+[A Re-examination of the Measurement of Foot Strike Mechanics During Running: The Immediate Effect of Footwear Midsole Thickness](10.3389/fspor.2022.824183). <br> *Frontiers in Sports and Active Living*, 2022
