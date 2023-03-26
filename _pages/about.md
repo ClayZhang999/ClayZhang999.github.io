@@ -3,7 +3,7 @@ permalink: /
 title: "About me"
 layout: single
 header:
-  overlay_image: Banner.png
+  overlay_image: banner.png
   overlay_filter: 0.0001
 author_profile: true
 redirect_from: 
