@@ -1,29 +1,29 @@
 [site]
-title = "Jiale Liu"
-description = "PhD student at the University of Example."
+title = "Zhenyuan Zhang"
+description = "PhD student at Liverpool John Moores University."
 favicon = "/favicon.svg"
-last_updated = "November 18, 2025"
+last_updated = "November 27, 2025"
 
 [author]
-name = "Jiale Liu"
+name = "Zhenyuan Zhang"
 title = "PhD Student"
-institution = "University of Example"
-avatar = "/bio.jpg"
+institution = "Liverpool John Moores University"
+avatar = "/IMG_2649.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "john.doe@example.com"
-location = "City, Country"
-location_url = "https://maps.google.com"
-location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
-]
-google_scholar = "https://scholar.google.com"
+email = "Z.Zhang@2023.ljmu.ac.uk"
+location = "Liverpool, UK"
+# location_url = "https://maps.google.com"
+# location_details = [
+#   "Room 123, Science Building,",
+#   "University Avenue, City, Country"
+# ]
+google_scholar = "https://scholar.google.com/citations?user=u2bn2HsAAAAJ&hl=en"
 orcid = "https://orcid.org"
-github = "https://github.com"
-linkedin = "https://linkedin.com"
+github = "https://github.com/ClayZhang999"
+linkedin = "https://www.linkedin.com/in/zhenyuan-zhang-661359204/"
 
 [features]
 # Show a like button on the about page
@@ -50,11 +50,11 @@ type = "page"
 target = "teaching"
 href = "/teaching"
 
-[[navigation]]
-title = "Awards"
-type = "page"
-target = "awards"
-href = "/awards"
+# [[navigation]]
+# title = "Awards"
+# type = "page"
+# target = "awards"
+# href = "/awards"
 
 [[navigation]]
 title = "Services"

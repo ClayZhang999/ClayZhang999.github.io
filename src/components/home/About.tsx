@@ -22,7 +22,17 @@ export default function About({ content, title = 'About' }: AboutProps) {
                         h1: ({ children }) => <h1 className="text-3xl font-serif font-bold text-primary mt-8 mb-4">{children}</h1>,
                         h2: ({ children }) => <h2 className="text-2xl font-serif font-bold text-primary mt-8 mb-4 border-b border-neutral-200 dark:border-neutral-800 pb-2">{children}</h2>,
                         h3: ({ children }) => <h3 className="text-xl font-semibold text-primary mt-6 mb-3">{children}</h3>,
-                        p: ({ children }) => <p className="mb-4 last:mb-0">{children}</p>,
+                        p: ({ children, node }) => {
+                            // Check if paragraph only contains images
+                            const hasOnlyImages = node?.children?.every(
+                                child => child.type === 'element' && child.tagName === 'img'
+                            );
+                            if (hasOnlyImages) {
+                                return <div className="flex flex-wrap gap-2 mb-4">{children}</div>;
+                            }
+                            return <p className="mb-4 last:mb-0">{children}</p>;
+                        },
+                        img: ({ ...props }) => <img {...props} className="inline-block max-h-12" />,
                         ul: ({ children }) => <ul className="list-disc list-inside mb-4 space-y-1 ml-4">{children}</ul>,
                         ol: ({ children }) => <ol className="list-decimal list-inside mb-4 space-y-1 ml-4">{children}</ol>,
                         li: ({ children }) => <li className="mb-1">{children}</li>,

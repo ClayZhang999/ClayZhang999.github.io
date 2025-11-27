@@ -3,9 +3,10 @@ title = "About"
 
 [profile]
 research_interests = [
-  "Computational Physics",
-  "Mathematical Principles",
-  "Proof of Theorems"
+  "Human Movement Biomechanics",
+  "Computer Simulations",
+  "Machine Learning in Sports Science",
+  "Wearable Technology",
 ]
 
 [[sections]]
@@ -13,6 +14,12 @@ id = "about"
 type = "markdown"
 source = "bio.md"
 title = "About"
+
+[[sections]]
+id = "Technical Stack"
+type = "markdown"
+source = "skills.md"
+title = "Technical Stack"
 
 [[sections]]
 id = "featured_publications"
