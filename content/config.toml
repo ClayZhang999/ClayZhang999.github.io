@@ -16,12 +16,11 @@ avatar = "/IMG_2649.jpg"
 email = "Z.Zhang@2023.ljmu.ac.uk"
 location = "Liverpool, UK"
 # location_url = "https://maps.google.com"
-# location_details = [
-#   "Room 123, Science Building,",
-#   "University Avenue, City, Country"
-# ]
+location_details = [
+  "Liverpool, UK",
+]
 google_scholar = "https://scholar.google.com/citations?user=u2bn2HsAAAAJ&hl=en"
-orcid = "https://orcid.org"
+# orcid = "https://orcid.org"
 github = "https://github.com/ClayZhang999"
 linkedin = "https://www.linkedin.com/in/zhenyuan-zhang-661359204/"
 
