@@ -1,3 +1,5 @@
-type = "text"
+type = "pdf"
 title = "CV"
-source = "cv.md"
+source = "/cv.pdf"
+height = "800px"
+downloadable = false
