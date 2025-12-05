@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import ReactMarkdown from 'react-markdown';
 import { CardPageConfig } from '@/types/page';
 
 export default function CardPage({ config, embedded = false }: { config: CardPageConfig; embedded?: boolean }) {
@@ -40,9 +41,25 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                             <p className={`${embedded ? "text-sm" : "text-base"} text-accent font-medium mb-3`}>{item.subtitle}</p>
                         )}
                         {item.content && (
-                            <p className={`${embedded ? "text-sm" : "text-base"} text-neutral-600 dark:text-neutral-500 leading-relaxed`}>
-                                {item.content}
-                            </p>
+                            <div className={`${embedded ? "text-sm" : "text-base"} text-neutral-600 dark:text-neutral-500 leading-relaxed`}>
+                                <ReactMarkdown
+                                    components={{
+                                        p: ({ children }) => <p className="mb-3 last:mb-0">{children}</p>,
+                                        strong: ({ children }) => <strong className="font-semibold text-primary">{children}</strong>,
+                                        em: ({ children }) => <em className="italic">{children}</em>,
+                                        ul: ({ children }) => <ul className="list-disc list-inside mb-3 space-y-1 ml-2">{children}</ul>,
+                                        ol: ({ children }) => <ol className="list-decimal list-inside mb-3 space-y-1 ml-2">{children}</ol>,
+                                        li: ({ children }) => <li>{children}</li>,
+                                        a: ({ href, children }) => (
+                                            <a href={href} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">
+                                                {children}
+                                            </a>
+                                        ),
+                                    }}
+                                >
+                                    {item.content}
+                                </ReactMarkdown>
+                            </div>
                         )}
                         {item.tags && (
                             <div className="flex flex-wrap gap-2 mt-4">
@@ -59,3 +76,5 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
         </motion.div>
     );
 }
+
+

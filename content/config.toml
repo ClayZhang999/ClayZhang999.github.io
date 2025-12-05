@@ -2,7 +2,7 @@
 title = "Zhenyuan Zhang"
 description = "PhD student at Liverpool John Moores University."
 favicon = "/favicon.svg"
-last_updated = "November 27, 2025"
+last_updated = "December 5, 2025"
 
 [author]
 name = "Zhenyuan Zhang"
@@ -43,11 +43,11 @@ type = "page"
 target = "publications"
 href = "/publications"
 
-[[navigation]]
-title = "Teaching"
-type = "page"
-target = "teaching"
-href = "/teaching"
+# [[navigation]]
+# title = "Teaching"
+# type = "page"
+# target = "teaching"
+# href = "/teaching"
 
 # [[navigation]]
 # title = "Awards"

@@ -1,10 +1,3 @@
-type = "card"
+type = "text"
 title = "Teaching"
-description = "Courses I have taught or assisted with."
-
-[[items]]
-title = "Example Course"
-subtitle = "Teaching Assistant"
-date = "2024"
-content = "Description of the course and responsibilities."
-tags = ["Undergraduate", "CS"]
+source = "teaching.md"
