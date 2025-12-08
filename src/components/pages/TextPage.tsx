@@ -49,6 +49,14 @@ export default function TextPage({ config, content, embedded = false }: TextPage
                         ),
                         strong: ({ children }) => <strong className="font-semibold text-primary">{children}</strong>,
                         em: ({ children }) => <em className="italic text-neutral-600 dark:text-neutral-500">{children}</em>,
+                        img: ({ ...props }) => (
+                            // eslint-disable-next-line @next/next/no-img-element
+                            <img
+                                {...props}
+                                alt={props.alt || ''}
+                                className="max-w-[100%] h-auto mb-5"
+                            />
+                        ),
                     }}
                 >
                     {content}

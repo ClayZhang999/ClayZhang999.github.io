@@ -56,10 +56,10 @@ href = "/publications"
 # href = "/awards"
 
 [[navigation]]
-title = "Services"
+title = "Experiences"
 type = "page"
-target = "services"
-href = "/services"
+target = "experiences"
+href = "/experiences"
 
 [[navigation]]
 title = "CV"
