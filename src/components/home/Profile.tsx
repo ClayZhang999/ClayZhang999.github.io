@@ -320,12 +320,16 @@ export default function Profile({ author, social, features, researchInterests }:
                 <p className="text-xs text-neutral-600 dark:text-neutral-500 mb-3 text-center">
                     Thanks for visiting!
                 </p>
-                <div className="flex justify-center items-center">
-                    <Script
-                        id="mapmyvisitors"
-                        src="https://mapmyvisitors.com/map.js?cl=ffffff&w=284&t=n&d=yEsLWkQotJI-9izR4nI_5CTDskeIzF6Zy2u2vreBKK4"
-                        strategy="afterInteractive"
-                    />
+                <div className="relative w-full flex justify-center items-center">
+                    <a href="https://mapmyvisitors.com/web/1bvjw" title="Visit tracker">
+                        <img 
+                            src="https://mapmyvisitors.com/map.png?d=yEsLWkQotJI-9izR4nI_5CTDskeIzF6Zy2u2vreBKK4&cl=ffffff&w=284" 
+                            alt="Visitor Map"
+                            width={284}
+                            height={180}
+                            className="rounded"
+                        />
+                    </a>
                 </div>
             </div>
             
