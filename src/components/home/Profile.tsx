@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
+import Script from 'next/script';
 import {
     EnvelopeIcon,
     AcademicCapIcon,
@@ -320,7 +321,11 @@ export default function Profile({ author, social, features, researchInterests }:
                     Thanks for visiting!
                 </p>
                 <div className="flex justify-center items-center">
-                    <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=284&t=n&d=yEsLWkQotJI-9izR4nI_5CTDskeIzF6Zy2u2vreBKK4'></script>
+                    <Script
+                        id="mapmyvisitors"
+                        src="https://mapmyvisitors.com/map.js?cl=ffffff&w=284&t=n&d=yEsLWkQotJI-9izR4nI_5CTDskeIzF6Zy2u2vreBKK4"
+                        strategy="afterInteractive"
+                    />
                 </div>
             </div>
             
