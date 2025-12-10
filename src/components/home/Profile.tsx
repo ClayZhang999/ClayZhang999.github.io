@@ -312,7 +312,18 @@ export default function Profile({ author, social, features, researchInterests }:
                     </div>
                 </div>
             )}
-
+            
+            {/* Visitor Map - 新增部分 */}
+            <div className="bg-neutral-100 dark:bg-neutral-800 rounded-lg p-4 mb-6 hover:shadow-lg transition-all duration-200 hover:scale-[1.02]">
+                <h3 className="font-semibold text-primary mb-3">🌍 Visitor Map</h3>
+                <p className="text-xs text-neutral-600 dark:text-neutral-500 mb-3 text-center">
+                    Thanks for visiting!
+                </p>
+                <div className="flex justify-center items-center">
+                    <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=284&t=n&d=yEsLWkQotJI-9izR4nI_5CTDskeIzF6Zy2u2vreBKK4'></script>
+                </div>
+            </div>
+            
             {/* Like Button */}
             {features.enable_likes && (
                 <div className="flex justify-center">
