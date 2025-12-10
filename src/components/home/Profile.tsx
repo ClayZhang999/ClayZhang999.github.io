@@ -320,7 +320,7 @@ export default function Profile({ author, social, features, researchInterests }:
                     Thanks for visiting!
                 </p>
                 <div className="relative w-full flex justify-center items-center">
-                    <a href="https://mapmyvisitors.com/web/1bvjw" title="Visit tracker">
+                    <a href="https://mapmyvisitors.com/web/1c16t" title="Visit tracker">
                         <img 
                             src="https://mapmyvisitors.com/map.png?d=yEsLWkQotJI-9izR4nI_5CTDskeIzF6Zy2u2vreBKK4&cl=ffffff&w=284" 
                             alt="Visitor Map"
