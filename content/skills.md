@@ -1,4 +1,4 @@
-### Programming: ![Python](/python_logo.jpg) ![Matlab](/matlab_logo.jpg) ![Shell](/shell.png)
+### Programming: ![Python](/python_logo.jpg) ![Matlab](/matlab_logo.jpg) ![Shell](/shell.png) ![Git](/git.png) ![laTeX](/latex.png)
 
 ### Biomechanics: ![Vicon](/vicon.png) ![Qualisys](/qualisys.png) ![Noraxon](/noraxon.png) ![Delsys](/delsys.png) ![TreadMetrix](/treadmetrix.png) ![Xsens](/xsens.png) ![IMeasureU](/imeasureu.png)
 
