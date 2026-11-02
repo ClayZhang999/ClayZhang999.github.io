@@ -4,9 +4,9 @@ title = "About"
 [profile]
 research_interests = [
   "Human Movement Biomechanics",
-  "Computer Simulations",
-  "Machine Learning in Sports Science",
+  "Machine Learning",
   "Wearable Technology",
+  "Computer Simulations",
 ]
 
 [[sections]]
@@ -21,12 +21,12 @@ type = "markdown"
 source = "skills.md"
 title = "Technical Stack"
 
-[[sections]]
-id = "featured_publications"
-type = "publications"
-title = "Selected Publications"
-filter = "selected"
-limit = 5
+#[[sections]]
+#id = "featured_publications"
+#type = "publications"
+#title = "Selected Publications"
+#filter = "selected"
+#limit = 5
 
 [[sections]]
 id = "news"

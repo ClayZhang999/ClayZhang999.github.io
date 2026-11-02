@@ -6,4 +6,4 @@
 
 ### Machine Learning: ![PyTorch](/pytorch_logo.png) ![TensorFlow](/tf_logo.png) ![scikit-learn](/sk_logo.png)
 
-### High-Performance Computing: ![SLURM](/slurm.png) ![AWS](/aws.png) ![CUDA](/cuda.png)
+### Cloud Infrastructure: ![SLURM](/slurm.png) ![AWS](/aws.png) ![Azure](/azure.jpg)
